@@ -42,21 +42,6 @@
 
                 "Аня, я тебя люблю"
             ]
-        },
-        {
-            "message": "!balance",
-            "type": "REPLY",
-            "answer": [
-                "Ваш баланс: {balance}"
-            ]
-        },
-        {
-            "message": "!give",
-            "type": "REPLY",
-            "controller": "testController",
-            "answer": [
-                "Вы получили одну монетку"
-            ]
         }
     ]
 }
