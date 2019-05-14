@@ -31,7 +31,7 @@ class RamonMessages {
 
         async function sendByBlock(block, parent) {
             let mess = await parent.parse(block.answer, message.author.id);
-            if (block.controller) {
+            if (block.controller && parent.impl) {
                 /*
                     Reflection call controller
                 */
