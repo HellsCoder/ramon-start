@@ -2,6 +2,9 @@
     Подключаем Ramon.Discord(библиотека для быстрого создания дискорд-ботов)
 */
 const RamonDiscord = require('./ramon/ramon-discord');
+
+
+
 /*
     Функция инициализации бота
 */
